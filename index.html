@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrap">
+
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <h2>Windmill</h2>
+            </div>
+            <ul class="nav-links">
+                <li class=""><a href="#dashboard" class="perform-li active"> Dashboard</a></li>
+                <li class="compare-li"><a href="#compare" class="compare"> Compare</a></li>
+                <li class=""><a href="#under30" class="underThirtee-li"> Under 30</a></li>
+                <li class=""><a href="#over30" class="thirtee-li"> Over 30</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <section id="dashboard">
+                <h1>Welcome to the Dashboard</h1>
+                <div class="container main">
+                    <h1>User Details</h1>
+                    <p>Here is the table for <i>All Users</i>.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Id No.</th>
+                                <th>Profile Picture</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Average Score</th>
+                                <th>Active Status</th>
+                                <th>Performance</th>
+                            </tr>
+                        </thead>
+                        <tbody class="all-users-table">
+
+                        </tbody>
+                    </table>
+                    <p>Select a category from the sidebar to view the tables.</p>
+                </div>
+            </section>
+            <section id="compaire-all-data">
+                <h1>Welcome to the Comparing Dashboard For Active Users</h1>
+                <div class="container">
+                    <h1>Active users</h1>
+                    <p>Here is the table for only <i>Active</i> users.</p>
+                    <table class="active">
+                        <thead>
+                            <tr>
+                                <th>Id No.</th>
+                                <th>Profile Picture</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Average Score</th>
+                                <th>Active Status</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody class="active-show">
+
+                        </tbody>
+                    </table>
+    
+                </div>
+                <div class="container">
+                    <h1>Top performer</h1>
+                    <p>Here is the table for only <i>Active</i> user Top performer.</p>
+                    <table class="top">
+                        <thead>
+                            <tr>
+                                <th>Id No.</th>
+                                <th>Profile Picture</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Average Score</th>
+                                <th>Active Status</th>
+                                
+                            </tr>
+                        </thead>
+                        <tbody class="top-show">
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h1>Users over 30</h1>
+                    <p>Here is the table for only <i>Active</i> users over 30.</p>
+                    <table class="over30">
+                        <thead>
+                            <tr>
+                                <th>Id No.</th>
+                                <th>Profile Picture</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Average Score</th>
+                                <th>Active Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="over30-show">
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="container">
+                    <h1>Users under 30</h1>
+                    <p>Here is the table for only <i>Active</i> users under 30.</p>
+                    <table class="under30">
+                        <thead>
+                            <tr>
+                                <th>Id No.</th>
+                                <th>Profile Picture</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Average Score</th>
+                                <th>Active Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="under30-show">
+
+                        </tbody>
+                    </table>                        
+                </div>
+            </section>
+            <section id="under30">
+                <div class="container">
+                    <h1>Under 30 Table</h1>
+                    <p>Here is the table for <i>All</i> users under 30.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Id No.</th>
+                                <th>Profile Picture</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Average Score</th>
+                                <th>Active Status</th>
+                            </tr>
+                        </thead>
+                        <tbody class="underThirtee-table">
+                            <tr>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section id="over30">
+                <div class="container">
+                    <h1>Over 30 Table</h1>
+                    <p>Here is the table for <i>All</i> users over 30.</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Id No.</th>
+                                <th>Profile Picture</th>
+                                <th>Name</th>
+                                <th>Age</th>
+                                <th>Average Score</th>
+                                <th>Active Status</th>
+                            </tr>
+                        </thead>
+                        <tbody  class="overThirtee-table">
+                            <tr>
+                                
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
